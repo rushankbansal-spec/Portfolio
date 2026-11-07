@@ -1,0 +1,11 @@
+.data
+.git
+.test-rushank-*
+.env*
+tests
+node_modules
+*.png
+*.log
+README.md
+
+.vercel

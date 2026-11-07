@@ -1,0 +1,7 @@
+.data/
+public/uploads/
+node_modules/
+*.log
+.test-rushank-*/
+.vercel/
+.env*

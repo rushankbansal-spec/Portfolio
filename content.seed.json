@@ -1,0 +1,254 @@
+{
+  "profile": {
+    "name": "Rushank Bansal",
+    "role": "Developer & ML explorer",
+    "headline": "Rushank\nBansal.",
+    "intro": "Computer science at VIT Chennai. Building with machine learning, computer vision, and the web.",
+    "bio": "I’m a second-year Computer Science student at VIT Chennai. I learn by building: connecting physical sensors to machine learning, training models, and turning them into tools people can use. I enjoy the entire journey from the first question to a working application.",
+    "email": "rushankbansal@gmail.com",
+    "github": "https://github.com/rushankbansal-spec",
+    "linkedin": "https://www.linkedin.com/in/rushank-bansal-306035374/",
+    "resume": "/resume.pdf",
+    "contactHeading": "Have a good\nproblem?",
+    "contactText": "I’d love to help figure it out. Let’s talk about projects, ideas, and opportunities to build something useful."
+  },
+  "projects": [
+    {
+      "id": "precipytech",
+      "title": "PrecipyTech",
+      "category": "Machine learning",
+      "type": "Independent project",
+      "summary": "From physical sensors to rainfall predictions.",
+      "description": "A sensor-based machine learning system that predicts rainfall using readings collected from multiple physical sensors. An independent first-year project connecting classroom concepts with a real data source.",
+      "bullets": [
+        "Collected and preprocessed physical sensor readings.",
+        "Trained a scikit-learn model to generate rainfall predictions.",
+        "Built the pipeline from data collection through inference."
+      ],
+      "stack": [
+        "Python",
+        "scikit-learn",
+        "pandas",
+        "NumPy"
+      ],
+      "image": "/art/rain-study.svg",
+      "imageAlt": "Typographic project study for PrecipyTech",
+      "imageLabel": "Project study / conceptual illustration",
+      "url": "",
+      "repo": ""
+    },
+    {
+      "id": "fact-checker",
+      "title": "Fact-Checker",
+      "category": "Machine learning",
+      "type": "Chrome extension",
+      "summary": "A second look at the sentences we read.",
+      "description": "A Chrome extension that evaluates whether a selected sentence is likely true or false, powered by a custom-trained classification model and a Python backend. Model predictions are probabilistic and are not a substitute for source verification.",
+      "bullets": [
+        "Trained a classification model on a labeled dataset.",
+        "Connected the browser extension to a Python backend.",
+        "Separated the backend and extension so the model can evolve independently."
+      ],
+      "stack": [
+        "Python",
+        "JavaScript",
+        "Custom-trained model"
+      ],
+      "image": "/art/fact-study.svg",
+      "imageAlt": "Typographic project study for Fact-Checker",
+      "imageLabel": "Project study / conceptual illustration",
+      "url": "",
+      "repo": ""
+    },
+    {
+      "id": "devpilot",
+      "title": "DevPilot",
+      "category": "Developer tools",
+      "type": "Two-person team project",
+      "summary": "A shorter path from code issue to correction.",
+      "description": "An in-IDE assistant built with a teammate. The tool uses the NVIDIA AI API for real-time code analysis and automatic fix suggestions while a developer types.",
+      "bullets": [
+        "Collaborated on the design and implementation in a two-person team.",
+        "Integrated the NVIDIA AI API for code analysis.",
+        "Contributed to the automatic code-correction workflow."
+      ],
+      "stack": [
+        "JavaScript",
+        "NVIDIA AI API"
+      ],
+      "image": "/art/dev-study.svg",
+      "imageAlt": "Typographic project study for DevPilot",
+      "imageLabel": "Project study / conceptual illustration",
+      "url": "",
+      "repo": ""
+    },
+    {
+      "id": "gesture-recognition",
+      "title": "Gesture Recognition",
+      "category": "Computer vision",
+      "type": "Real-time vision project",
+      "summary": "Teaching a camera to understand a gesture.",
+      "description": "A live hand-gesture recognition system using webcam input, MediaPipe hand-landmark tracking, and a trained classification model.",
+      "bullets": [
+        "Collected gesture examples for model training.",
+        "Tracked hand landmarks using MediaPipe.",
+        "Trained a model to classify gestures from a live webcam feed."
+      ],
+      "stack": [
+        "Python",
+        "MediaPipe",
+        "scikit-learn"
+      ],
+      "image": "/art/gesture-study.svg",
+      "imageAlt": "Typographic project study for Gesture Recognition",
+      "imageLabel": "Project study / conceptual illustration",
+      "url": "",
+      "repo": ""
+    },
+    {
+      "id": "gym-management",
+      "title": "Gym Management",
+      "category": "Web development",
+      "type": "Web application",
+      "summary": "A home for membership information.",
+      "description": "A website to store and manage gym membership data, connecting a web interface with a MySQL database.",
+      "bullets": [
+        "Built the website using HTML, CSS, and JavaScript.",
+        "Used MySQL to store membership information."
+      ],
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "MySQL"
+      ],
+      "image": "/art/gym-study.svg",
+      "imageAlt": "Typographic project study for Gym Management",
+      "imageLabel": "Project study / conceptual illustration",
+      "url": "",
+      "repo": ""
+    },
+    {
+      "id": "rest-api",
+      "title": "Backend REST API",
+      "category": "Web development",
+      "type": "Backend project",
+      "summary": "The connection behind a web application.",
+      "description": "A REST API built with Node.js and Express to serve a web application.",
+      "bullets": [
+        "Implemented backend API routes using Node.js and Express."
+      ],
+      "stack": [
+        "Node.js",
+        "Express"
+      ],
+      "image": "/art/api-study.svg",
+      "imageAlt": "Typographic project study for Backend REST API",
+      "imageLabel": "Project study / conceptual illustration",
+      "url": "",
+      "repo": ""
+    }
+  ],
+  "experience": [
+    {
+      "id": "devpilot-team",
+      "role": "Developer, DevPilot",
+      "organization": "Two-person project team",
+      "period": "Project collaboration",
+      "description": "Collaborated on an AI-assisted coding tool, integrating NVIDIA AI and contributing to the automatic correction workflow."
+    },
+    {
+      "id": "rajasthan-club",
+      "role": "Event Organizer",
+      "organization": "Rajasthan Club, VIT Chennai",
+      "period": "Leadership & activities",
+      "description": "Served on the management committee for Mela. Hosted and ran a PC gaming stall for students at Kesariya."
+    },
+    {
+      "id": "house-lead",
+      "role": "House In-Charge",
+      "organization": "School",
+      "period": "Leadership & activities",
+      "description": "Led coordination and student participation across inter-house events and competitions. The house won the House Cup during this tenure."
+    }
+  ],
+  "skills": [
+    {
+      "id": "ml",
+      "title": "Machine learning",
+      "items": [
+        "scikit-learn",
+        "pandas",
+        "NumPy",
+        "MediaPipe"
+      ],
+      "description": "Applied models, data preparation, and real-world inputs."
+    },
+    {
+      "id": "web",
+      "title": "Web development",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "description": "From browser interfaces to backend connections."
+    },
+    {
+      "id": "languages",
+      "title": "Languages",
+      "items": [
+        "Python",
+        "Java",
+        "C",
+        "C++",
+        "JavaScript"
+      ],
+      "description": "A growing toolkit for different kinds of problems."
+    },
+    {
+      "id": "tools",
+      "title": "Databases & tools",
+      "items": [
+        "MySQL",
+        "Git",
+        "GitHub",
+        "VS Code"
+      ],
+      "description": "The tools that keep ideas moving toward working software."
+    }
+  ],
+  "education": {
+    "degree": "B.Tech, Computer Science and Engineering",
+    "institution": "VIT Chennai",
+    "graduation": "Expected graduation 2029",
+    "grade": "CGPA 7.43 / 10.0",
+    "coursework": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Database Management Systems",
+      "Operating Systems",
+      "Computer Networks",
+      "Computation Structures"
+    ]
+  },
+  "certifications": [
+    {
+      "id": "kaggle-ml",
+      "title": "Machine Learning",
+      "issuer": "Kaggle"
+    },
+    {
+      "id": "kaggle-python",
+      "title": "Python",
+      "issuer": "Kaggle"
+    },
+    {
+      "id": "simplilearn-c",
+      "title": "C Programming",
+      "issuer": "Simplilearn"
+    }
+  ]
+}
